@@ -1,0 +1,99 @@
+.content-card {
+  display: flex;
+  background-color: white;
+  border-radius: 1rem;
+  width: 73rem;
+  height: 16rem;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+.content-comment {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem 0 0 0;
+}
+aside {
+  display: flex;
+  align-items: center;
+}
+.button-likes {
+  width: 4rem;
+  height: 10rem;
+  border-radius: 1rem;
+  background-color: var(--Very-light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.button-likes h2 {
+  font-size: 1.6rem;
+  color: var(--Moderate-blue);
+}
+.button-likes .icon-plus {
+  width: 1.1rem;
+  height: 1.1rem;
+  cursor: pointer;
+}
+.button-likes .icon-plus:hover svg path,.button-likes .icon-minus:hover svg path{
+    fill: var(--Moderate-blue);
+}
+.button-likes .icon-minus {
+  width: 1.1rem;
+  height: 0.3rem;
+  cursor: pointer;
+}
+.content-title-card {
+  height: fit-content;
+  display: flex;
+  width: 63rem;
+  /* padding: 0 1rem 0 1rem; */
+  justify-content: space-between;
+}
+.content-user {
+  display: flex;
+  align-items: center;
+  width: 24.2rem;
+  gap: 1.6rem;
+}
+.text-title-comment {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--Grayish-Blue);
+}
+.text-comment {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--Grayish-Blue);
+  line-height: 2rem;
+}
+img {
+  width: 3.3rem;
+  height: 3.3rem;
+}
+.content-reply {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.content-reply:hover svg path {
+  fill: var(--Light-grayish-blue);
+}
+.content-reply:hover .text-reply{
+    color:var(--Light-grayish-blue) ;
+    cursor: pointer;
+}
+.icon-reply {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.icon-reply:hover {
+  cursor: pointer;
+  fill: hsl(239, 57%, 85%);
+}
+.text-reply {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--Moderate-blue);
+}
