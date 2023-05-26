@@ -48,7 +48,7 @@ const prueba = () => {
   console.log("prueba");
 };
 
-export const createButtonVotes = (svgIconOne, svgIconTwo, id) => {
+export const createButtonVotes = (svgIconOne, svgIconTwo, id,score) => {
   const button = createElement("div", "button-likes");
 
   const iconPlus = createElement("div", "icon-plus");
@@ -60,7 +60,7 @@ export const createButtonVotes = (svgIconOne, svgIconTwo, id) => {
 
   const totalVotes = createElement("h2", "score-likes");
   totalVotes.setAttribute("id", "button-" + id);
-  totalVotes.textContent = "0";
+  totalVotes.textContent = score;
   button.append(totalVotes);
 
   const iconMinus = createElement("div", "icon-minus");

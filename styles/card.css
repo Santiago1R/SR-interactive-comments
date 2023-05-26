@@ -27,7 +27,6 @@ aside {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  
 }
 .button-likes h2 {
   font-size: 1.6rem;

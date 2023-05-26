@@ -1,7 +1,7 @@
 export const incrementVotes = (estado, id) => {
   const totalVotesElement = document.getElementById("button-" + id);
   let contadorVotos = parseInt(totalVotesElement.textContent);
-  totalVotesElement.textContent = contadorVotos;
+  totalVotesElement.style.userSelect = "none";
   if (estado == true) {
     contadorVotos++;
   } else {
